@@ -16,6 +16,7 @@ void afficher_successeurs(pSommet * sommet, int num)
 
 }
 
+
 // Ajouter l'arête entre les sommets s1 et s2 du graphe
 pSommet* CreerArete(pSommet* sommet,int s1,int s2,int poids)
 {
@@ -213,7 +214,4 @@ int main()
     free(g);
     return 0;
 }
-
-
-
  
